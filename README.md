@@ -12,6 +12,12 @@ Obsidian's CodeMirror 6 parser follows CommonMark spec strictly. When `**bold**`
 
 This plugin fixes that behavior.
 
+## Before & After
+
+| Before | After |
+|--------|-------|
+| ![Before](bold_fix_before.png) | ![After](bold_fix_after.png) |
+
 ## Features
 
 - Fixes `**bold**` rendering in Live Preview and Reading View
