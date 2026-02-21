@@ -1,5 +1,7 @@
 # Bold Fix - Obsidian Plugin
 
+[한국어](README-kr.md)
+
 Fix bold (`**bold**`) and italic (`*italic*`) rendering when followed by text without space.
 
 ## Problem
