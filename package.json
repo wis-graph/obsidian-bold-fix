@@ -1,0 +1,26 @@
+{
+	"name": "bold-fix",
+	"version": "1.0.0",
+	"description": "Fix bold rendering when **bold** is followed by text without space",
+	"main": "main.js",
+	"scripts": {
+		"dev": "vite build --watch",
+		"build": "tsc -noEmit -skipLibCheck && vite build"
+	},
+	"keywords": [
+		"obsidian",
+		"plugin",
+		"bold",
+		"markdown"
+	],
+	"author": "wis-graph",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.0",
+		"builtin-modules": "^3.3.0",
+		"obsidian": "latest",
+		"tslib": "^2.6.2",
+		"typescript": "^5.3.3",
+		"vite": "^5.0.0"
+	}
+}

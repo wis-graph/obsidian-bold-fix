@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+*.js.map
+
+# Local state
+data.json
+
+# System
+.DS_Store
+Thumbs.db

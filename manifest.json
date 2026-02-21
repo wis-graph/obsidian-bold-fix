@@ -1,0 +1,10 @@
+{
+	"id": "bold-fix",
+	"name": "Bold Fix",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Fix bold rendering when **bold** is followed by text without space",
+	"author": "wis-graph",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}
