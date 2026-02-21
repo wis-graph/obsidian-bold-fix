@@ -28,6 +28,15 @@
 
 ## 설치
 
+### BRAT (권장)
+
+1. [BRAT](https://github.com/TfTHacker/obsidian42-brat) 플러그인 설치
+2. BRAT 설정 → "Add Beta plugin with frozen version"
+3. 리포지토리 입력: `wis-graph/obsidian-bold-fix`
+4. 설치 후 "Bold Fix" 활성화
+
+### 수동 설치
+
 ```bash
 # 플러그인 폴더 생성
 mkdir -p /볼트경로/.obsidian/plugins/bold-fix

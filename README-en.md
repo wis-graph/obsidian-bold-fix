@@ -28,6 +28,15 @@ This plugin fixes that behavior.
 
 ## Installation
 
+### BRAT (Recommended)
+
+1. Install [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin
+2. BRAT settings → "Add Beta plugin with frozen version"
+3. Enter repository: `wis-graph/obsidian-bold-fix`
+4. Enable "Bold Fix" after installation
+
+### Manual
+
 ```bash
 # Create plugin folder
 mkdir -p /path/to/vault/.obsidian/plugins/bold-fix
