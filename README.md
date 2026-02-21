@@ -28,23 +28,19 @@ This plugin fixes that behavior.
 
 ## Installation
 
-### Manual
-
-1. Download `main.js` and `manifest.json` from [Releases](https://github.com/wis-graph/obsidian-bold-fix/releases)
-2. Create folder `bold-fix` in your vault's `.obsidian/plugins/` directory
-3. Copy downloaded files into the folder
-4. Enable "Bold Fix" in Obsidian settings → Community plugins
-
-### From Source
-
 ```bash
-git clone https://github.com/wis-graph/obsidian-bold-fix.git
-cd obsidian-bold-fix
-npm install
-npm run build
+# Create plugin folder
+mkdir -p /path/to/vault/.obsidian/plugins/bold-fix
+
+# Download files
+curl -L -o /path/to/vault/.obsidian/plugins/bold-fix/main.js \
+  https://raw.githubusercontent.com/wis-graph/obsidian-bold-fix/main/main.js
+
+curl -L -o /path/to/vault/.obsidian/plugins/bold-fix/manifest.json \
+  https://raw.githubusercontent.com/wis-graph/obsidian-bold-fix/main/manifest.json
 ```
 
-Copy `main.js` and `manifest.json` to `.obsidian/plugins/bold-fix/` in your vault.
+Enable "Bold Fix" in Obsidian settings → Community plugins.
 
 ## Development
 

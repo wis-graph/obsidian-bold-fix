@@ -28,23 +28,19 @@
 
 ## 설치
 
-### 수동 설치
-
-1. [Releases](https://github.com/wis-graph/obsidian-bold-fix/releases)에서 `main.js`와 `manifest.json` 다운로드
-2. 볼트의 `.obsidian/plugins/` 폴더에 `bold-fix` 폴더 생성
-3. 다운로드한 파일들을 폴더에 복사
-4. 옵시디언 설정 → 커뮤니티 플러그인에서 "Bold Fix" 활성화
-
-### 소스에서 빌드
-
 ```bash
-git clone https://github.com/wis-graph/obsidian-bold-fix.git
-cd obsidian-bold-fix
-npm install
-npm run build
+# 플러그인 폴더 생성
+mkdir -p /볼트경로/.obsidian/plugins/bold-fix
+
+# 파일 다운로드
+curl -L -o /볼트경로/.obsidian/plugins/bold-fix/main.js \
+  https://raw.githubusercontent.com/wis-graph/obsidian-bold-fix/main/main.js
+
+curl -L -o /볼트경로/.obsidian/plugins/bold-fix/manifest.json \
+  https://raw.githubusercontent.com/wis-graph/obsidian-bold-fix/main/manifest.json
 ```
 
-`main.js`와 `manifest.json`을 볼트의 `.obsidian/plugins/bold-fix/`에 복사하세요.
+옵시디언 설정 → 커뮤니티 플러그인에서 "Bold Fix" 활성화.
 
 ## 개발
 
